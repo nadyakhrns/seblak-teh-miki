@@ -1,5 +1,5 @@
 /**
- * SEBLAK PRASMANAN TEH DEVI - MAIN APPLICATION LOGIC
+ * SEBLAK PRASMANAN TEH MIKI - MAIN APPLICATION LOGIC
  * ===================================================
  * Interaktivitas Topping, Level Pedas, Kalkulator Otomatis, dan WhatsApp Checkout
  */
@@ -31,7 +31,7 @@ function applyConfigDetails() {
   // Update link WhatsApp langsung jika ada
   const waLinks = document.querySelectorAll(".wa-direct-link");
   waLinks.forEach(link => {
-    link.href = `https://wa.me/${CONFIG.businessWhatsApp}?text=${encodeURIComponent('Halo Admin Seblak Teh Devi, saya mau tanya-tanya menu seblak prasmanan.')}`;
+    link.href = `https://wa.me/${CONFIG.businessWhatsApp}?text=${encodeURIComponent('Halo Admin Seblak Teh Miki, saya mau tanya-tanya menu seblak prasmanan.')}`;
   });
 
   // Tampilkan info alamat & jam buka
@@ -459,7 +459,7 @@ function handleWhatsAppOrder(event) {
   const grandTotal = subtotal + CONFIG.baseBroth.price;
 
   // Format Pesanan WhatsApp dengan format yang rapi dan profesional
-  let message = `*FORM PESANAN SEBLAK PRASMANAN TEH DEVI*\n`;
+  let message = `*FORM PESANAN SEBLAK PRASMANAN TEH MIKI*\n`;
   message += `===================================\n\n`;
   message += `👤 *Nama Pemesan:* ${name}\n`;
   message += `📱 *No. WhatsApp:* ${phone}\n`;
@@ -480,7 +480,7 @@ function handleWhatsAppOrder(event) {
   message += `\n-----------------------------------\n`;
   message += `💰 *TOTAL PEMBAYARAN: ${formatRupiah(grandTotal)}*\n`;
   message += `-----------------------------------\n\n`;
-  message += `Halo Teh Devi / Admin, saya ingin memesan racikan seblak di atas. Mohon info estimasi pembuatan & nomor rekening / QRIS pembayarannya ya. Terima kasih! 🙏`;
+  message += `Halo Teh Miki / Admin, saya ingin memesan racikan seblak di atas. Mohon info estimasi pembuatan & nomor rekening / QRIS pembayarannya ya. Terima kasih! 🙏`;
 
   const encodedUrl = `https://wa.me/${CONFIG.businessWhatsApp}?text=${encodeURIComponent(message)}`;
 
@@ -585,7 +585,7 @@ function showToast(message) {
 // 14. Ubah Konfigurasi WhatsApp Dinamis (Modal Setting untuk Owner/Penguji)
 function promptChangeWhatsApp() {
   const current = CONFIG.businessWhatsApp;
-  const newNumber = prompt("Masukkan nomor WhatsApp admin Seblak Teh Devi (Gunakan awalan 62 tanpa spasi/tanda hubung, contoh: 628123456789):", current);
+  const newNumber = prompt("Masukkan nomor WhatsApp admin Seblak Teh Miki (Gunakan awalan 62 tanpa spasi/tanda hubung, contoh: 628123456789):", current);
   if (newNumber && newNumber.trim().length >= 8) {
     CONFIG.businessWhatsApp = newNumber.trim().replace(/[^0-9]/g, "");
     applyConfigDetails();

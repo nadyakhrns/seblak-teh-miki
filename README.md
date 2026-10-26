@@ -1,6 +1,6 @@
-# 🌶️ Seblak Prasmanan Teh Devi - Official Landing Page
+# 🌶️ Seblak Prasmanan Teh Miki - Official Landing Page
 
-Landing page modern, responsif, dan siap dipublikasikan (Live) untuk **Seblak Prasmanan Teh Devi** dengan bumbu kencur medok otentik dan konsep prasmanan 50+ varian topping.
+Landing page modern, responsif, dan siap dipublikasikan (Live) untuk **Seblak Prasmanan Teh Miki** dengan bumbu kencur medok otentik dan konsep prasmanan 50+ varian topping.
 
 ---
 
@@ -38,14 +38,14 @@ Landing page modern, responsif, dan siap dipublikasikan (Live) untuk **Seblak Pr
 
 ## 🛠️ Konfigurasi Bisnis (WhatsApp & Alamat)
 
-Anda dapat mengubah nomor WhatsApp dan data bisnis pada file [`js/config.js`](file:///c:/Users/nadia/OneDrive/Dokumen/Semester%207/Digital%20Marketing/seblak-teh-devi/js/config.js):
+Anda dapat mengubah nomor WhatsApp dan data bisnis pada file [`js/config.js`](file:///c:/Users/nadia/OneDrive/Dokumen/Semester%207/Digital%20Marketing/seblak-teh-Miki/js/config.js):
 
 ```javascript
 const CONFIG = {
   // Ganti dengan nomor WhatsApp aktif admin (gunakan awalan 62 tanpa tanda +)
   businessWhatsApp: "6281234567890",
   
-  businessName: "Seblak Prasmanan Teh Devi",
+  businessName: "Seblak Prasmanan Teh Miki",
   tagline: "Bebas Pilih Topping • Bumbu Kencur Medok Juara",
   
   operationalHours: "Senin - Minggu: 10:00 - 22:00 WIB",
@@ -63,7 +63,7 @@ const CONFIG = {
 Secara standar arsitektur web modern, seluruh file foto disimpan di dalam folder **`assets/img/`** agar rapi dan terpisah dari kode program:
 
 ```text
-seblak-teh-devi/
+seblak-teh-Miki/
 ├── assets/
 │   └── img/                    <-- Letakkan semua foto PNG di sini
 │       ├── logo.png
@@ -81,7 +81,7 @@ seblak-teh-devi/
 
 | No | Menu / Topping / Elemen | Lokasi & Nama File Rekomendasi | Keterangan |
 | :---: | :--- | :--- | :--- |
-| 1 | **Logo Resmi Teh Devi** | `assets/img/logo.png` | Favicon tab browser, logo navbar header & footer |
+| 1 | **Logo Resmi Teh Miki** | `assets/img/logo.png` | Favicon tab browser, logo navbar header & footer |
 | 2 | **Foto Hero Seblak Utama** | `assets/img/seblakkuahmerah.png` | Banner mangkok seblak kuah merah merona di bagian atas |
 | 3 | **Dumpling Keju** | `assets/img/dumplingkeju.png` | Topping frozen dumpling keju leleh |
 | 4 | **Cuanki Lidah Garut** | `assets/img/cuankilidahgarut.png` | Topping kerupuk cuanki lidah renyah |
@@ -114,7 +114,7 @@ python -m http.server 8080
 Lalu buka browser di `http://localhost:8080`.
 
 ### Opsi 3: Buka Langsung File HTML
-Cukup klik dua kali (double-click) file [`index.html`](file:///c:/Users/nadia/OneDrive/Dokumen/Semester%207/Digital%20Marketing/seblak-teh-devi/index.html) untuk langsung membukanya di browser favorit Anda.
+Cukup klik dua kali (double-click) file [`index.html`](file:///c:/Users/nadia/OneDrive/Dokumen/Semester%207/Digital%20Marketing/seblak-teh-Miki/index.html) untuk langsung membukanya di browser favorit Anda.
 
 ---
 
@@ -124,12 +124,12 @@ Website ini adalah website statis (HTML/CSS/JS) murni sehingga sangat cepat, ama
 
 ### 1. Netlify (Sangat Mudah & Rekomendasi)
 1. Buka [Netlify Drop](https://app.netlify.com/drop).
-2. Tarik (*drag and drop*) seluruh folder `seblak-teh-devi` ke halaman tersebut.
+2. Tarik (*drag and drop*) seluruh folder `seblak-teh-Miki` ke halaman tersebut.
 3. Website Anda langsung **Live** dalam hitungan detik dengan domain `https://[nama-anda].netlify.app`.
 
 ### 2. Vercel
 1. Install Vercel CLI jika belum ada: `npm i -g vercel`.
-2. Di dalam folder `seblak-teh-devi`, jalankan perintah:
+2. Di dalam folder `seblak-teh-Miki`, jalankan perintah:
    ```bash
    vercel
    ```
@@ -140,6 +140,6 @@ Website ini adalah website statis (HTML/CSS/JS) murni sehingga sangat cepat, ama
    ```bash
    git init
    git add .
-   git commit -m "Initial release Seblak Prasmanan Teh Devi"
+   git commit -m "Initial release Seblak Prasmanan Teh Miki"
    ```
 2. Hubungkan ke repository GitHub Anda dan aktifkan GitHub Pages pada tab **Settings > Pages** (pilih branch `main` root `/`).

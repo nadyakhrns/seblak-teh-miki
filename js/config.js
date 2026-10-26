@@ -1,5 +1,5 @@
 /**
- * SEBLAK PRASMANAN TEH DEVI - KONFIGURASI BISNIS & KATALOG
+ * SEBLAK PRASMANAN TEH MIKI - KONFIGURASI BISNIS & KATALOG
  * ========================================================
  * Anda dapat menyesuaikan nomor WhatsApp, alamat, dan data topping di file ini.
  */
@@ -7,16 +7,16 @@
 const CONFIG = {
   // Nomor WhatsApp Bisnis (Gunakan format kode negara tanpa '+', contoh: '6281234567890')
   // Silakan ganti placeholder ini dengan nomor WhatsApp asli pemilik/admin
-  businessWhatsApp: "6281234567890",
-  
-  businessName: "Seblak Prasmanan Teh Devi",
+  businessWhatsApp: "6285860697065",
+
+  businessName: "Seblak Prasmanan Teh Miki",
   tagline: "Bebas Pilih Topping • Bumbu Kencur Medok Juara",
-  instagram: "@seblaktehdevi",
-  
+  instagram: "@seblaktehmiki",
+
   operationalHours: "Senin - Minggu: 10:00 - 22:00 WIB",
   outletAddress: "Jl. Raya Utama No. 88 (Dekat Alun-alun Kota), Sebelah Minimarket",
-  mapsUrl: "https://maps.google.com/?q=Seblak+Prasmanan+Teh+Devi",
-  
+  mapsUrl: "https://maps.google.com/?q=Seblak+Prasmanan+Teh+Miki",
+
   // Promo Spesial Hari Ini
   promo: {
     title: "Promo Hari Ini",
