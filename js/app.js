@@ -154,11 +154,10 @@ function renderSpicyMeter() {
       <button 
         type="button"
         onclick="setSpicyLevel(${lvl.level})"
-        class="flex-1 min-w-[120px] p-3 rounded-xl border-2 transition-all duration-200 text-left relative ${
-          isSelected 
-            ? 'border-red-600 bg-red-50/70 shadow-md ring-2 ring-red-500/20' 
-            : 'border-slate-200 bg-white hover:border-slate-300'
-        }"
+        class="flex-1 min-w-[120px] p-3 rounded-xl border-2 transition-all duration-200 text-left relative ${isSelected
+        ? 'border-red-600 bg-red-50/70 shadow-md ring-2 ring-red-500/20'
+        : 'border-slate-200 bg-white hover:border-slate-300'
+      }"
       >
         ${lvl.isPopular ? `
           <span class="absolute -top-2.5 right-2 px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-red-600 text-white uppercase tracking-wider shadow-xs">
@@ -236,7 +235,7 @@ function applyJuaraPreset() {
   renderSpicyMeter();
   updateOrderCalculations();
   showToast("🔥 Paket Racik Seblak Juara berhasil dimasukkan ke piring!");
-  
+
   // Scroll mulus ke ringkasan atau katalog
   const orderSection = document.getElementById("order-section");
   if (orderSection) {
@@ -386,7 +385,7 @@ function renderOrderSummaryInForm(items, totalItems, totalPrice, hasGift, itemsN
 // 10. Filter Kategori Topping
 function filterCategory(category) {
   state.activeCategory = category;
-  
+
   // Update button active state
   const filterBtns = document.querySelectorAll(".category-filter-btn");
   filterBtns.forEach(btn => {
@@ -468,7 +467,7 @@ function handleWhatsAppOrder(event) {
   message += itemsTextList.join("\n") + "\n\n";
   message += `🌶️ *Level Pedas:* ${spicyObj.name} ${spicyObj.emoji}\n`;
   message += `🍲 *Kuah:* ${CONFIG.baseBroth.name} (GRATIS)\n`;
-  
+
   if (hasGift) {
     message += `🎁 *Bonus Promo:* ${CONFIG.promo.freeItemName} (Klaim min. 4 topping)\n`;
   }
@@ -580,15 +579,4 @@ function showToast(message) {
       setTimeout(() => toastEl.remove(), 300);
     }
   }, 2500);
-}
-
-// 14. Ubah Konfigurasi WhatsApp Dinamis (Modal Setting untuk Owner/Penguji)
-function promptChangeWhatsApp() {
-  const current = CONFIG.businessWhatsApp;
-  const newNumber = prompt("Masukkan nomor WhatsApp admin Seblak Teh Miki (Gunakan awalan 62 tanpa spasi/tanda hubung, contoh: 628123456789):", current);
-  if (newNumber && newNumber.trim().length >= 8) {
-    CONFIG.businessWhatsApp = newNumber.trim().replace(/[^0-9]/g, "");
-    applyConfigDetails();
-    showToast(`✓ Nomor WhatsApp diperbarui menjadi: ${CONFIG.businessWhatsApp}`);
-  }
 }
