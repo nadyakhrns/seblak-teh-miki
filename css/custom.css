@@ -1,0 +1,120 @@
+/* Custom Styles for Seblak Prasmanan Teh Devi */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+
+:root {
+  --primary-red: #dc2626;
+  --primary-red-hover: #b91c1c;
+  --accent-orange: #ea580c;
+  --accent-amber: #f59e0b;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+  border: 2px solid #f8fafc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Flame animation for Spicy Levels */
+@keyframes flameFlicker {
+  0%, 100% {
+    transform: scale(1) rotate(-1deg);
+  }
+  50% {
+    transform: scale(1.08) rotate(1deg);
+  }
+}
+
+.animate-flame {
+  animation: flameFlicker 1.8s infinite ease-in-out;
+}
+
+/* Floating animation for badge / cart */
+@keyframes softFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-soft-float {
+  animation: softFloat 3s infinite ease-in-out;
+}
+
+/* Toast Notification */
+.toast-enter {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Image loading skeleton / shimmer */
+.shimmer {
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Glow button effect */
+.glow-on-hover {
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.glow-on-hover:hover {
+  box-shadow: 0 10px 25px -5px rgba(220, 38, 38, 0.4), 0 8px 10px -6px rgba(234, 88, 12, 0.3);
+}
+
+/* FAQ Accordion Transition */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+  opacity: 0;
+}
+
+.faq-content.open {
+  max-height: 500px;
+  opacity: 1;
+}
+
+/* Mobile cart drawer blur */
+.drawer-backdrop {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
