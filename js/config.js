@@ -49,7 +49,7 @@ const CONFIG = {
       category: "frozen",
       price: 2500,
       description: "Kulit lembut kenyal dengan lelehan keju creamy gurih saat digigit.",
-      image: "dumplingkeju.png",
+      image: "assets/img/dumplingkeju.png",
       badge: "Best Seller ⭐",
       isPopular: true
     },
@@ -59,7 +59,7 @@ const CONFIG = {
       category: "kerupuk",
       price: 1500,
       description: "Gurih renyah menyerap kuah pedas kencur secara maksimal.",
-      image: "cuankilidahgarut.png",
+      image: "assets/img/cuankilidahgarut.png",
       badge: "Wajib Coba",
       isPopular: true
     },
@@ -69,7 +69,7 @@ const CONFIG = {
       category: "kerupuk",
       price: 1000,
       description: "Topping klasik wajib seblak basah kenyal lembut bumbu meresap.",
-      image: "kerupukmawarputih.png",
+      image: "assets/img/kerupukmawarputih.png",
       badge: "Klasik Sunda"
     },
     {
@@ -78,7 +78,7 @@ const CONFIG = {
       category: "sayur",
       price: 3000,
       description: "Tekstur crunchy segar saat dimasak dengan kuah seblak panas.",
-      image: "jamurenokisegar.png",
+      image: "assets/img/jamurenokisegar.png",
       badge: "Segar & Crunchy"
     },
     {
@@ -87,7 +87,7 @@ const CONFIG = {
       category: "daging",
       price: 2500,
       description: "Potongan sosis daging sapi asli gurih padat mengenyangkan.",
-      image: "sosissapipremium.png",
+      image: "assets/img/sosissapipremium.png",
       badge: "Daging Asli"
     },
     {
@@ -96,7 +96,7 @@ const CONFIG = {
       category: "frozen",
       price: 2000,
       description: "Kenyal lembut khas Garut berisi gurih tetelan daging cincang.",
-      image: "baksoaciisitetelan.png",
+      image: "assets/img/baksoaciisitetelan.png",
       badge: "Favorit Gurih"
     },
     {
@@ -105,7 +105,7 @@ const CONFIG = {
       category: "daging",
       price: 2500,
       description: "Dipresto berjam-jam sampai tulang lunak dan daging lepas lumer.",
-      image: "cekerayampresto.png",
+      image: "assets/img/cekerayampresto.png",
       badge: "Super Empuk 🔥",
       isPopular: true
     },
@@ -115,7 +115,7 @@ const CONFIG = {
       category: "daging",
       price: 3000,
       description: "Telur puyuh rebus gurih penyeimbang sensasi pedas kuah seblak.",
-      image: "telurpuyuh.png",
+      image: "assets/img/telurpuyuh.png",
       badge: "Isi 3 Butir"
     },
     {
@@ -124,7 +124,7 @@ const CONFIG = {
       category: "kerupuk",
       price: 1500,
       description: "Tahu kering renyah khas Bandung yang kenyal gurih saat berpadu kuah.",
-      image: "cuankitahugoreng.png",
+      image: "assets/img/cuankitahugoreng.png",
       badge: "Renyah"
     },
     {
@@ -133,7 +133,7 @@ const CONFIG = {
       category: "kerupuk",
       price: 2000,
       description: "Mie kenyal legit yang sangat nikmat menyerap kuah bumbu kencur.",
-      image: "miekuning.png",
+      image: "assets/img/miekuning.png",
       badge: "Porsi Kenyang"
     },
     {
@@ -142,7 +142,7 @@ const CONFIG = {
       category: "sayur",
       price: 1500,
       description: "Sayuran segar pilihan dicuci higienis, penyeimbang serat dan kesegaran.",
-      image: "sayursawihijau.png",
+      image: "assets/img/sayursawihijau.png",
       badge: "Segar Higienis"
     },
     {
@@ -151,7 +151,7 @@ const CONFIG = {
       category: "daging",
       price: 3500,
       description: "Telur ayam segar dimasak orak-arik langsung ke dalam kuah kental gurih.",
-      image: "telurayam.png",
+      image: "assets/img/telurayam.png",
       badge: "Kuah Makin Kental"
     }
   ]

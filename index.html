@@ -18,16 +18,16 @@
   <meta property="og:url" content="https://seblaktehdevi.com/" />
   <meta property="og:title" content="Seblak Prasmanan Teh Devi - Bebas Pilih Topping Sepuasnya!" />
   <meta property="og:description" content="Sensasi seblak prasmanan otentik bumbu kencur medok dengan 50+ pilihan topping mulai Rp 1.000. Level 0 - 5. Pesan langsung via WhatsApp & GoFood!" />
-  <meta property="og:image" content="seblakkuahmerah.png" />
+  <meta property="og:image" content="assets/img/seblakkuahmerah.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:title" content="Seblak Prasmanan Teh Devi - Bumbu Kencur Medok Juara" />
   <meta property="twitter:description" content="Prasmanan seblak 50+ topping bebas pilih. Level pedas 0 s/d 5 cabai rawit asli. Pesan online sekarang!" />
-  <meta property="twitter:image" content="seblakkuahmerah.png" />
+  <meta property="twitter:image" content="assets/img/seblakkuahmerah.png" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
 
   <!-- Google Fonts & Tailwind CSS CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -66,7 +66,7 @@
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "Seblak Prasmanan Teh Devi",
-    "image": "seblakkuahmerah.png",
+    "image": "assets/img/seblakkuahmerah.png",
     "description": "Pusat seblak prasmanan otentik bumbu kencur medok dengan 50+ varian topping favorit. Bebas pilih porsi & level pedas.",
     "servesCuisine": "Indonesian, Sundanese, Street Food",
     "priceRange": "Rp 1.000 - Rp 35.000",
@@ -130,9 +130,10 @@
       <!-- Logo & Brand Name -->
       <a href="#" class="flex items-center space-x-3 group">
         <img 
-          src="logo.png" 
+          src="assets/img/logo.png" 
           alt="Seblak Prasmanan Teh Devi Logo" 
           class="w-11 h-11 object-contain rounded-full shadow-sm border border-slate-200 bg-white p-0.5 group-hover:rotate-6 transition-transform duration-300"
+          onerror="if (!this.dataset.retry) { this.dataset.retry='1'; this.src='img/logo.png'; } else if (this.dataset.retry==='1') { this.dataset.retry='2'; this.src='logo.png'; } else { this.onerror=null; }"
         />
         <div>
           <h1 class="font-black text-base sm:text-lg text-slate-900 leading-tight tracking-tight group-hover:text-red-600 transition-colors">
@@ -314,10 +315,11 @@
               <div class="relative bg-white p-3 rounded-3xl border-2 border-slate-200/90 shadow-2xl overflow-hidden group">
                 <div class="relative h-72 sm:h-96 w-full rounded-2xl overflow-hidden bg-slate-900">
                   <img 
-                    src="seblakkuahmerah.png" 
+                    src="assets/img/seblakkuahmerah.png" 
                     alt="Sajian Seblak Prasmanan Kuah Merah Merona Teh Devi" 
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     loading="eager"
+                    onerror="if (!this.dataset.retry) { this.dataset.retry='1'; this.src='img/seblakkuahmerah.png'; } else if (this.dataset.retry==='1') { this.dataset.retry='2'; this.src='seblakkuahmerah.png'; } else { this.onerror=null; }"
                   />
                   <!-- Gradient Vignette -->
                   <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -952,9 +954,10 @@
         <div class="space-y-4">
           <div class="flex items-center space-x-3">
             <img 
-              src="logo.png" 
+              src="assets/img/logo.png" 
               alt="Logo Footer" 
               class="w-11 h-11 object-contain rounded-full bg-white p-0.5 border border-slate-700"
+              onerror="if (!this.dataset.retry) { this.dataset.retry='1'; this.src='img/logo.png'; } else if (this.dataset.retry==='1') { this.dataset.retry='2'; this.src='logo.png'; } else { this.onerror=null; }"
             />
             <span class="font-black text-white text-base">Seblak Prasmanan Teh Devi</span>
           </div>

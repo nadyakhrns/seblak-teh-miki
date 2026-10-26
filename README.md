@@ -58,26 +58,43 @@ const CONFIG = {
 
 ---
 
-## 📸 Daftar Nama File Foto (PNG) yang Digunakan
+## 📸 Struktur Folder Foto & Daftar Nama File (PNG)
 
-Cukup simpan foto berformat `.png` di dalam folder project ini dengan nama-nama berikut, maka foto akan otomatis tampil di website:
+Secara standar arsitektur web modern, seluruh file foto disimpan di dalam folder **`assets/img/`** agar rapi dan terpisah dari kode program:
 
-| No | Menu / Topping / Elemen | Nama File PNG | Keterangan |
+```text
+seblak-teh-devi/
+├── assets/
+│   └── img/                    <-- Letakkan semua foto PNG di sini
+│       ├── logo.png
+│       ├── seblakkuahmerah.png
+│       ├── dumplingkeju.png
+│       └── ...
+├── css/
+├── js/
+└── index.html
+```
+
+> 💡 **Fitur Smart Auto-Fallback:** Jika sewaktu-waktu Anda menyimpannya di folder `assets/img/`, folder `img/`, ataupun langsung di root folder project, website secara cerdas akan otomatis mendeteksinya tanpa error!
+
+### Tabel Nama File PNG:
+
+| No | Menu / Topping / Elemen | Lokasi & Nama File Rekomendasi | Keterangan |
 | :---: | :--- | :--- | :--- |
-| 1 | **Logo Resmi Teh Devi** | `logo.png` | Digunakan pada favicon, header, dan footer |
-| 2 | **Foto Hero Seblak Utama** | `seblakkuahmerah.png` | Banner mangkok seblak kuah merah merona di bagian atas |
-| 3 | **Dumpling Keju** | `dumplingkeju.png` | Topping frozen dumpling keju leleh |
-| 4 | **Cuanki Lidah Garut** | `cuankilidahgarut.png` | Topping kerupuk cuanki lidah renyah |
-| 5 | **Kerupuk Mawar Putih** | `kerupukmawarputih.png` | Topping kerupuk mawar seblak basah |
-| 6 | **Jamur Enoki Segar** | `jamurenokisegar.png` | Topping jamur enoki segar |
-| 7 | **Sosis Sapi Premium** | `sosissapipremium.png` | Topping potongan sosis daging sapi |
-| 8 | **Bakso Aci Isi Tetelan** | `baksoaciisitetelan.png` | Topping bakso aci khas Garut |
-| 9 | **Ceker Ayam Presto** | `cekerayampresto.png` | Topping ceker ayam presto empuk |
-| 10 | **Telur Puyuh (Isi 3)** | `telurpuyuh.png` | Topping tusukan telur puyuh rebus |
-| 11 | **Cuanki Tahu Goreng** | `cuankitahugoreng.png` | Topping tahu kering renyah Bandung |
-| 12 | **Mie Kuning / Keriting** | `miekuning.png` | Topping mie kuning kenyal |
-| 13 | **Sayur Sawi Hijau & Kol** | `sayursawihijau.png` | Topping sayur segar |
-| 14 | **Telur Ayam Ceplok / Orak-arik** | `telurayam.png` | Topping telur ayam |
+| 1 | **Logo Resmi Teh Devi** | `assets/img/logo.png` | Favicon tab browser, logo navbar header & footer |
+| 2 | **Foto Hero Seblak Utama** | `assets/img/seblakkuahmerah.png` | Banner mangkok seblak kuah merah merona di bagian atas |
+| 3 | **Dumpling Keju** | `assets/img/dumplingkeju.png` | Topping frozen dumpling keju leleh |
+| 4 | **Cuanki Lidah Garut** | `assets/img/cuankilidahgarut.png` | Topping kerupuk cuanki lidah renyah |
+| 5 | **Kerupuk Mawar Putih** | `assets/img/kerupukmawarputih.png` | Topping kerupuk mawar seblak basah |
+| 6 | **Jamur Enoki Segar** | `assets/img/jamurenokisegar.png` | Topping jamur enoki segar |
+| 7 | **Sosis Sapi Premium** | `assets/img/sosissapipremium.png` | Topping potongan sosis daging sapi |
+| 8 | **Bakso Aci Isi Tetelan** | `assets/img/baksoaciisitetelan.png` | Topping bakso aci khas Garut |
+| 9 | **Ceker Ayam Presto** | `assets/img/cekerayampresto.png` | Topping ceker ayam presto empuk |
+| 10 | **Telur Puyuh (Isi 3)** | `assets/img/telurpuyuh.png` | Topping tusukan telur puyuh rebus |
+| 11 | **Cuanki Tahu Goreng** | `assets/img/cuankitahugoreng.png` | Topping tahu kering renyah Bandung |
+| 12 | **Mie Kuning / Keriting** | `assets/img/miekuning.png` | Topping mie kuning kenyal |
+| 13 | **Sayur Sawi Hijau & Kol** | `assets/img/sayursawihijau.png` | Topping sayur segar |
+| 14 | **Telur Ayam Ceplok / Orak-arik** | `assets/img/telurayam.png` | Topping telur ayam |
 
 ---
 
