@@ -73,7 +73,7 @@ function renderToppings() {
             alt="${item.name}" 
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
-            onerror="this.src='https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80'"
+            onerror="this.onerror=null; this.style.backgroundColor='#fee2e2';"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
           
@@ -313,7 +313,7 @@ function renderOrderSummaryInForm(items, totalItems, totalPrice, hasGift, itemsN
         ${items.map(item => `
           <div class="flex items-center justify-between p-2.5 bg-slate-50 rounded-xl border border-slate-200 text-xs">
             <div class="flex items-center space-x-2.5">
-              <img src="${item.image}" alt="${item.name}" class="w-10 h-10 rounded-lg object-cover border border-slate-200" />
+              <img src="${item.image}" alt="${item.name}" class="w-10 h-10 rounded-lg object-cover border border-slate-200" onerror="this.onerror=null; this.style.backgroundColor='#fee2e2';" />
               <div>
                 <h5 class="font-bold text-slate-900">${item.name}</h5>
                 <span class="text-[11px] text-slate-500">${formatRupiah(item.price)} × ${item.qty} porsi</span>

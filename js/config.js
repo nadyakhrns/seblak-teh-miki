@@ -49,7 +49,7 @@ const CONFIG = {
       category: "frozen",
       price: 2500,
       description: "Kulit lembut kenyal dengan lelehan keju creamy gurih saat digigit.",
-      image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=600&q=80",
+      image: "dumplingkeju.png",
       badge: "Best Seller ⭐",
       isPopular: true
     },
@@ -59,7 +59,7 @@ const CONFIG = {
       category: "kerupuk",
       price: 1500,
       description: "Gurih renyah menyerap kuah pedas kencur secara maksimal.",
-      image: "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=600&q=80",
+      image: "cuankilidahgarut.png",
       badge: "Wajib Coba",
       isPopular: true
     },
@@ -69,7 +69,7 @@ const CONFIG = {
       category: "kerupuk",
       price: 1000,
       description: "Topping klasik wajib seblak basah kenyal lembut bumbu meresap.",
-      image: "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=600&q=80",
+      image: "kerupukmawarputih.png",
       badge: "Klasik Sunda"
     },
     {
@@ -78,7 +78,7 @@ const CONFIG = {
       category: "sayur",
       price: 3000,
       description: "Tekstur crunchy segar saat dimasak dengan kuah seblak panas.",
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80",
+      image: "jamurenokisegar.png",
       badge: "Segar & Crunchy"
     },
     {
@@ -87,7 +87,7 @@ const CONFIG = {
       category: "daging",
       price: 2500,
       description: "Potongan sosis daging sapi asli gurih padat mengenyangkan.",
-      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80",
+      image: "sosissapipremium.png",
       badge: "Daging Asli"
     },
     {
@@ -96,7 +96,7 @@ const CONFIG = {
       category: "frozen",
       price: 2000,
       description: "Kenyal lembut khas Garut berisi gurih tetelan daging cincang.",
-      image: "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=600&q=80",
+      image: "baksoaciisitetelan.png",
       badge: "Favorit Gurih"
     },
     {
@@ -105,7 +105,7 @@ const CONFIG = {
       category: "daging",
       price: 2500,
       description: "Dipresto berjam-jam sampai tulang lunak dan daging lepas lumer.",
-      image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80",
+      image: "cekerayampresto.png",
       badge: "Super Empuk 🔥",
       isPopular: true
     },
@@ -115,7 +115,7 @@ const CONFIG = {
       category: "daging",
       price: 3000,
       description: "Telur puyuh rebus gurih penyeimbang sensasi pedas kuah seblak.",
-      image: "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=600&q=80",
+      image: "telurpuyuh.png",
       badge: "Isi 3 Butir"
     },
     {
@@ -124,7 +124,7 @@ const CONFIG = {
       category: "kerupuk",
       price: 1500,
       description: "Tahu kering renyah khas Bandung yang kenyal gurih saat berpadu kuah.",
-      image: "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=600&q=80",
+      image: "cuankitahugoreng.png",
       badge: "Renyah"
     },
     {
@@ -133,7 +133,7 @@ const CONFIG = {
       category: "kerupuk",
       price: 2000,
       description: "Mie kenyal legit yang sangat nikmat menyerap kuah bumbu kencur.",
-      image: "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=600&q=80",
+      image: "miekuning.png",
       badge: "Porsi Kenyang"
     },
     {
@@ -142,7 +142,7 @@ const CONFIG = {
       category: "sayur",
       price: 1500,
       description: "Sayuran segar pilihan dicuci higienis, penyeimbang serat dan kesegaran.",
-      image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+      image: "sayursawihijau.png",
       badge: "Segar Higienis"
     },
     {
@@ -151,7 +151,7 @@ const CONFIG = {
       category: "daging",
       price: 3500,
       description: "Telur ayam segar dimasak orak-arik langsung ke dalam kuah kental gurih.",
-      image: "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=600&q=80",
+      image: "telurayam.png",
       badge: "Kuah Makin Kental"
     }
   ]

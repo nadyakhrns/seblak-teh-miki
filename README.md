@@ -58,6 +58,29 @@ const CONFIG = {
 
 ---
 
+## 📸 Daftar Nama File Foto (PNG) yang Digunakan
+
+Cukup simpan foto berformat `.png` di dalam folder project ini dengan nama-nama berikut, maka foto akan otomatis tampil di website:
+
+| No | Menu / Topping / Elemen | Nama File PNG | Keterangan |
+| :---: | :--- | :--- | :--- |
+| 1 | **Logo Resmi Teh Devi** | `logo.png` | Digunakan pada favicon, header, dan footer |
+| 2 | **Foto Hero Seblak Utama** | `seblakkuahmerah.png` | Banner mangkok seblak kuah merah merona di bagian atas |
+| 3 | **Dumpling Keju** | `dumplingkeju.png` | Topping frozen dumpling keju leleh |
+| 4 | **Cuanki Lidah Garut** | `cuankilidahgarut.png` | Topping kerupuk cuanki lidah renyah |
+| 5 | **Kerupuk Mawar Putih** | `kerupukmawarputih.png` | Topping kerupuk mawar seblak basah |
+| 6 | **Jamur Enoki Segar** | `jamurenokisegar.png` | Topping jamur enoki segar |
+| 7 | **Sosis Sapi Premium** | `sosissapipremium.png` | Topping potongan sosis daging sapi |
+| 8 | **Bakso Aci Isi Tetelan** | `baksoaciisitetelan.png` | Topping bakso aci khas Garut |
+| 9 | **Ceker Ayam Presto** | `cekerayampresto.png` | Topping ceker ayam presto empuk |
+| 10 | **Telur Puyuh (Isi 3)** | `telurpuyuh.png` | Topping tusukan telur puyuh rebus |
+| 11 | **Cuanki Tahu Goreng** | `cuankitahugoreng.png` | Topping tahu kering renyah Bandung |
+| 12 | **Mie Kuning / Keriting** | `miekuning.png` | Topping mie kuning kenyal |
+| 13 | **Sayur Sawi Hijau & Kol** | `sayursawihijau.png` | Topping sayur segar |
+| 14 | **Telur Ayam Ceplok / Orak-arik** | `telurayam.png` | Topping telur ayam |
+
+---
+
 ## 🚀 Cara Menjalankan Website Secara Lokal
 
 ### Opsi 1: Menggunakan Node.js / npx `serve`
