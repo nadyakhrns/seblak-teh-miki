@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nadyakhrns.github.io/seblak-teh-miki/sitemap.xml
